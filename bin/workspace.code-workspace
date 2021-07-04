@@ -1,13 +1,12 @@
 {
 	"folders": [
 		{
-			"path": "..\\.settings"
-		},
-		{
-			"path": "..\\bin"
-		},
-		{
+			"name": "src",
 			"path": "."
+		},
+		{
+			"name": "bin",
+			"path": "..\\bin"
 		}
 	]
 }

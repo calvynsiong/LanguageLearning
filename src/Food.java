@@ -1,8 +1,8 @@
-public class Car {
+public class Food {
 
   String name;
 
-  Car(String name) {
+  Food(String name) {
     this.name = name;
   }
 }
