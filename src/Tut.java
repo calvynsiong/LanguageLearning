@@ -1,20 +1,12 @@
-import java.util.Scanner;
+import java.util.Arrays;
 
 public class Tut {
 
-	public static void main(String[] args) {
-		Scanner scanner = new Scanner(System.in);
+  public static void main(String[] args) {
+    String x = "Calvyn";
+    String y = "Calvyn";
 
-		System.out.println("  ");
-		System.out.println("Enter the first num");
-		double a = scanner.nextDouble();
-		System.out.println("Enter the second num ");
-		double b = scanner.nextDouble();
-
-		double hyp = Math.sqrt(Math.pow(a, 2) + Math.pow(b, 2));
-		System.out.println("The hypotenuse is " + hyp);
-		scanner.close();
-		
-
-	}
+    System.out.println("2" == "2");
+    System.out.println("2".equals("2"));
+  }
 }
