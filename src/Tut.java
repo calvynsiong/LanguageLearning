@@ -1,12 +1,9 @@
-import java.util.Arrays;
+import java.util.*;
 
 public class Tut {
 
   public static void main(String[] args) {
-    String x = "Calvyn";
-    String y = "Calvyn";
-
-    System.out.println("2" == "2");
-    System.out.println("2".equals("2"));
+    Car myCar1 = new Car();
+    Car myCar2 = new Car();
   }
 }
